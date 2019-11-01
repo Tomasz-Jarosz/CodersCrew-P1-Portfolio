@@ -41,7 +41,6 @@ body {
     letter-spacing: 4px;
 }
 
-
 nav ul {
     list-style: none;
 }
@@ -76,7 +75,6 @@ nav a:active
 {
     color: var(--main-text-color);
 }
-
 
 .hero-img {
     height: 80vh;
@@ -120,7 +118,6 @@ nav a:active
     padding: 20px 0px 0px;   
 }
 
-
 .call-2-action-buttons {
     display: flex;
     justify-content: center;
@@ -151,6 +148,16 @@ nav a:active
     text-decoration: none;
 }
 
-/* .call-2-action a:hover {
-    color: #fff;
-} */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    color: var(--main-text-color);
+}
+
+.content-header {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
