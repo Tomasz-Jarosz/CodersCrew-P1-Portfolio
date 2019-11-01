@@ -158,6 +158,15 @@ section {
 }
 
 .content-header {
+    width: 75%;
+    height: 200px;
+    background-color: #fafaff;
+}
+
+.content-header-text{
     font-weight: 700;
     font-size: 1.7rem;
+    position: relative;
+    top: 20px;
+    left: 50px;
 }
