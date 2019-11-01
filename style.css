@@ -1,5 +1,5 @@
 body {
-    background-color: #E1E1E1;
+    background-color: #e1e1e1;
 }
 
 #container {
@@ -8,6 +8,58 @@ body {
     margin-right: auto;
     border: 5px solid blue;
 }
+
+#logo-and-nav {
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo {
+    display: flex;
+}
+
+.logo-item {
+    padding: 2px;
+    align-self: center;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav a:link
+{
+   color: #6b6b6b;
+   text-decoration: none;
+}
+
+nav a:visited
+{
+   color: #6b6b6b;
+}
+
+nav a:hover
+{
+   color: #999;
+}
+
+nav a:active
+{
+   color: #6b6b6b;
+}
+
+
 .hero-img {
     border: 5px solid red;
     /* padding: 5%; */
