@@ -1,6 +1,15 @@
+:root {
+    --outer-background-color: #e1e1e1;
+    --main-text-color: #6b6b6b;
+    --welcome-text-color: #ffc63b;
+    --button-darker-end-color: #ff9a3b;    
+    --a-hover-color: #999;
+  }
+
 body {
-    background-color: #e1e1e1;
+    background-color: var(--outer-background-color);
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 #container {
@@ -8,6 +17,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid blue;
+    background-color: #fff;
 }
 
 #logo-and-nav {
@@ -19,11 +29,19 @@ body {
 
 #logo {
     display: flex;
+    padding-left: 3%;
 }
 
 .logo-item {
-    padding: 2px;
+    padding: 20px 5px 5px 0px;
     align-self: center;
+}
+
+.logo-text {
+    color: var(--main-text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
 }
 
 
@@ -36,28 +54,30 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10px;
+    padding: 20px 40px 5px 0px;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 nav a:link
 {
-   color: #6b6b6b;
+   color: var(--main-text-color);
    text-decoration: none;
 }
 
 nav a:visited
 {
-   color: #6b6b6b;
+    color: var(--main-text-color);
 }
 
 nav a:hover
 {
-   color: #999;
+    color: var(--a-hover-color);
 }
 
 nav a:active
 {
-   color: #6b6b6b;
+    color: var(--main-text-color);
 }
 
 
@@ -73,4 +93,32 @@ nav a:active
     /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
+
+.welcome {
+    color: var(--welcome-text-color);
+    font-size: 7rem;
+    font-weight: 700;
+    padding: 50px 0px 0px 0px;
+}
+
+.my-name-is {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;     
+}
+
+#header-socials {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.social-item {
+    padding: 7px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
