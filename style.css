@@ -13,15 +13,12 @@ body {
 }
 
 #container {
-    /* width: 1000px; */
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid blue;
     background-color: #fff;
 }
 
 #logo-and-nav {
-    border: 3px solid green;
     display: flex;
     justify-content: space-between;
     
@@ -82,15 +79,8 @@ nav a:active
 
 
 .hero-img {
-    border: 5px solid red;
-    /* padding: 5%; */
-    /* width: 100vw; */
-    /* position: relative; */
     height: 80vh;
-    /* margin-top: 200px; */
-
     background-image: url("img/hero-image-1920-1152.jpg");
-    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -100,7 +90,7 @@ nav a:active
     color: var(--welcome-text-color);
     font-size: 7rem;
     font-weight: 700;
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0px 0px;
 }
 
 .my-name-is {
@@ -122,3 +112,45 @@ nav a:active
     border-radius: 50%;
 }
 
+.i-am-happy {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px 0px;   
+}
+
+
+.call-2-action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.call-2-action button {
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--button-darker-end-color), var(--welcome-text-color));  
+    color: #fff;
+    padding: 10px 40px;
+    margin: 40px;
+    transition: all 0.4s ease 0s;
+}
+
+.call-2-action button:hover {
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, var(--button-darker-end-color), var(--welcome-text-color));  
+    color: #fff;
+    padding: 10px 40px;
+    margin: 40px;
+    transition: all 0.4s ease 0s;
+}
+
+.call-2-action a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .call-2-action a:hover {
+    color: #fff;
+} */
