@@ -172,6 +172,7 @@ section {
 
 .content-header-text {
     padding: 1em;
+    text-indent: 10em;
     font-weight: 700;
     font-size: 1.7rem;
     /* position: relative;
@@ -186,7 +187,7 @@ section {
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
     background-color: #fff;
     display: flex;
     /* -webkit-box-shadow: 3px 3px 5px #ddd; 
