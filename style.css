@@ -10,6 +10,7 @@ body {
     background-color: var(--outer-background-color);
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 #container {
@@ -21,7 +22,6 @@ body {
 #logo-and-nav {
     display: flex;
     justify-content: space-between;
-    
 }
 
 #logo {
@@ -55,24 +55,20 @@ nav ul li {
     font-size: 1.2rem;
 }
 
-nav a:link
-{
+nav a:link {
    color: var(--main-text-color);
    text-decoration: none;
 }
 
-nav a:visited
-{
+nav a:visited {
     color: var(--main-text-color);
 }
 
-nav a:hover
-{
+nav a:hover {
     color: var(--a-hover-color);
 }
 
-nav a:active
-{
+nav a:active {
     color: var(--main-text-color);
 }
 
@@ -118,6 +114,10 @@ nav a:active
     padding: 20px 0px 0px;   
 }
 
+.call-2-action {
+    margin: 5em;
+}
+
 .call-2-action-buttons {
     display: flex;
     justify-content: center;
@@ -157,33 +157,37 @@ nav a:active
 
 section {
     color: var(--main-text-color);
+    background-color: #fafaff;
+    /* width: 75%; */
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
 }
 
 .content-header {
-    width: 75%;
-    height: 200px;
+    width: 100%;
+    /* height: 300px; */
     background-color: #fafaff;
 }
 
 .content-header-text {
+    padding: 1em;
     font-weight: 700;
     font-size: 1.7rem;
-    position: relative;
+    /* position: relative;
     top: 0.5em;
-    left: 8em;
+    left: 8em; */
 }
 
 .content-info {
-    position: relative;
-    top: -8em;
+    /* position: relative;
+    top: -15em; */
     width: 90%;
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #cfc;
+    margin-bottom: 1em;
+    background-color: #fff;
     display: flex;
     /* -webkit-box-shadow: 3px 3px 5px #ddd; 
     -moz-box-shadow:    3px 3px 5px #ddd;
@@ -244,4 +248,12 @@ section {
     border-left: dotted var(--welcome-text-color);
     padding: 1%;
     line-height: 2;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 2em;
 }
