@@ -4,7 +4,7 @@
     --welcome-text-color: #ffc63b;
     --button-darker-end-color: #ff9a3b;    
     --a-hover-color: #999;
-  }
+}
 
 body {
     background-color: var(--outer-background-color);
@@ -238,7 +238,7 @@ section {
 .contact-form {
     min-width: 20em;
     margin: 0 auto;
-  }
+}
 
 .contact-form form {
     text-align: center;
@@ -261,7 +261,7 @@ textarea {
     -webkit-box-shadow: 0.5em 0.5em 0.5em #ddd; 
     -moz-box-shadow:    0.5em 0.5em 0.5em #ddd;
     box-shadow:         0.5em 0.5em 0.5em #ddd; 
-  }
+}
 
 fieldset {
     border: medium none !important;
@@ -284,16 +284,22 @@ fieldset {
     margin: 0 0 5px;
     padding: 10px;
     font-size: 1em;
-  }
+}
 
 #contact button:hover {
     background: var(--button-darker-end-color);
     transition: background-color 0.4s ease-in-out;
-  }
+}
 
 footer {
     margin: 0 auto;
     background-color: #fff;
     text-align: center;
     padding: 2em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-info {
+        flex-wrap: wrap;
+    }
 }
