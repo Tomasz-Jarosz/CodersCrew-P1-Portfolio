@@ -354,8 +354,8 @@ iframe {
 
 @media only screen and (max-width: 600px) {
     .welcome {
-        font-size: 5em;
-        margin: 1em 0 0.3em;
+        font-size: 4em;
+        margin: 0.1em 0 0.3em;
     }
     
     .my-name-is {
