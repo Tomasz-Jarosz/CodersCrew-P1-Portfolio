@@ -197,7 +197,7 @@ section {
 }
 
 .content-info-left {
-    min-width: 35%;
+    min-width: 33.33%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
