@@ -204,7 +204,6 @@ section {
 }
 
 .content-info-left-img {
-    /* padding: 5%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
