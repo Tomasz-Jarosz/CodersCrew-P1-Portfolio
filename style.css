@@ -380,4 +380,7 @@ iframe {
         font-size: 1em;
         margin: 0.1em 0 0.1em;
     }
+    #header-socials {
+        padding: 0.1em 0;
+    }
 }
