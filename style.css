@@ -167,7 +167,7 @@ section {
 }
 
 .content-info {
-    width: 90%;
+    width: 92%;
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -180,8 +180,9 @@ section {
 }
 
 .content-info-left {
-    width: 50em;
+    min-width: 35%;
     display: flex;
+    margin: 0 auto;
 }
 
 .content-info-left-img {
@@ -298,7 +299,7 @@ footer {
     padding: 2em;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1360px) {
     .content-info {
         flex-wrap: wrap;
     }
