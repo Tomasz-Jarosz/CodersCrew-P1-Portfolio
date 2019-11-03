@@ -232,7 +232,7 @@ section {
 }
 
 .content-info-left-text ul li {
-    padding: 10px 20px 5px 0px;
+    padding: 0.6em;
     font-weight: 700;
     white-space: nowrap;
 }
