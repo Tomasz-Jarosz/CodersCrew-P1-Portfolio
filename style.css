@@ -83,6 +83,7 @@ nav a:active {
 
 .hero-img {
     height: 70vh;
+    width: 100vw;
     background-image: url("img/hero-image-1920-1152.jpg");
     background-position: center;
     background-size: cover;
@@ -325,6 +326,9 @@ iframe {
 
 @media only screen and (max-width: 1360px) {
     .content-info {
+        flex-wrap: wrap;
+    }
+    .call-2-action-buttons {
         flex-wrap: wrap;
     }
     iframe {
