@@ -373,14 +373,14 @@ iframe {
 @media only screen and (max-height: 400px) {
     .welcome {
         font-size: 3em;
-        margin: 0.1em 0 0.1em;
+        margin: 0;
     }
     
     .my-name-is {
         font-size: 1em;
-        margin: 0.1em 0 0.1em;
+        margin: 0;
     }
     #header-socials {
-        padding: 0.1em 0;
+        padding: 0;
     }
 }
