@@ -8,49 +8,55 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon-16.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="container">
-        <header>
-            <div id="logo-and-nav">
+        <div class="logo-and-nav">
+            <a href="#container"> 
                 <div id="logo">
-                    <div class="logo-item logo-img"><img src="img/favicon-32.png"></div>
+                    <div class="logo-item logo-img"><img src="img/favicon-64.png"></div>
                     <div class="logo-item logo-text">Dev</div>
                 </div>
-                <nav>
-                    <ul>
+            </a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
                         <li><a href="#about-me">About me</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-img">
+            <div class="welcome">
+                Welcome!
             </div>
-            <div class="hero-img">
-                <div class="welcome">
-                    Welcome!
-                </div>
-                <div class="my-name-is">
-                    My name is Designer.
-                </div>
-                <div id="header-socials">
-                    <div class="social-item"><a href=""><img src="img/twitter-16.png" alt="Twitter profile"></a></div>
-                    <div class="social-item"><a href=""><img src="img/linkedin-16.png" alt="LinkedIn profile"></a></div>
-                    <div class="social-item"><a href=""><img src="img/github-16.png" alt="GitHub repo"></a></div>
-                    <div class="social-item"><a href=""><img src="img/facebook-16.png" alt="Facebook profile"></a></div>
-                </div>
+            <div class="my-name-is">
+                My name is Designer
             </div>
-            <div class="call-2-action">
-                <div class="i-am-happy">
-                    I am happy to help you with any problem!
-                </div>
-                <div class="call-2-action-buttons">
-                    <button><a href="">Contact me!</a></button>
-                    <button><a href="">Check my CV</a></button>
-                </div>
+            <div id="header-socials">
+                <div class="social-item"><a href=""><img src="img/twitter-16.png" alt="Twitter profile"></a></div>
+                <div class="social-item"><a href=""><img src="img/linkedin-16.png" alt="LinkedIn profile"></a></div>
+                <div class="social-item"><a href=""><img src="img/github-16.png" alt="GitHub repo"></a></div>
+                <div class="social-item"><a href=""><img src="img/facebook-16.png" alt="Facebook profile"></a></div>
             </div>
-        </header>
+        </div>
+        <div class="call-2-action">
+            <div class="i-am-happy">
+                I am happy to help you with any problem!
+            </div>
+            <div class="call-2-action-buttons">
+                <button><a href="">Contact me!</a></button>
+                <button><a href="">Check my CV</a></button>
+            </div>
+        </div>
         <div class="content">
             <section>
                 <div class="content-header">
@@ -105,23 +111,23 @@
                             <ul>
                                 <li>
                                     <span class="content-info-left-text-first-col">Playing:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Purring:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Climbing:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Jumping:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Brushing:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088;</span>
                                 </li>
                             </ul>
                         </div>
@@ -134,23 +140,23 @@
                             <ul>
                                 <li>
                                     <span class="content-info-left-text-first-col">Scratching:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Biting:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Fighting:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Slapping:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
                                     <span class="content-info-left-text-first-col">Frightening:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088;</span>
                                 </li>
                             </ul>
                         </div>
@@ -163,23 +169,23 @@
                             <ul>
                                 <li>
                                     <span class="content-info-left-text-first-col">Camouflage:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
-                                </li>
-                                <li>
-                                    <span class="content-info-left-text-first-col">Hunting:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
-                                </li>
-                                <li>
-                                    <span class="content-info-left-text-first-col">Approaching:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
-                                </li>
-                                <li>
-                                    <span class="content-info-left-text-first-col">Freezing:</span>
                                     <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                                 <li>
+                                    <span class="content-info-left-text-first-col">Hunting:</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
+                                </li>
+                                <li>
+                                    <span class="content-info-left-text-first-col">Approaching:</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
+                                </li>
+                                <li>
+                                    <span class="content-info-left-text-first-col">Freezing:</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088;</span>
+                                </li>
+                                <li>
                                     <span class="content-info-left-text-first-col">Alertness:</span>
-                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088; &#11088;</span>
+                                    <span class="content-info-left-text-second-col">&#11088; &#11088; &#11088; &#11088;</span>
                                 </li>
                             </ul>
                         </div>
@@ -309,7 +315,7 @@
                         <div class="content-info-left-text-contact">
                             <div class="contact-form">  
                                 <form id="contact" action="" method="post">
-                                    <h3>Send me a message</h3>
+                                    <h4>Send me a message</h4>
                                     <fieldset>
                                     <input placeholder="Your name" type="text" required>
                                     </fieldset>
@@ -327,7 +333,7 @@
                         </div>
                     </div>
                     <div class="content-info-right-contact">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.6213066230716!2d17.231818250380744!3d51.041614652373895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fde60f6e2f7bd%3A0xd3ce4bacd0632ee5!2sWie%C5%BCa%20widokowa%20w%20Kotowicach!5e0!3m2!1spl!2spl!4v1572711781246!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.6213066230716!2d17.231818250380744!3d51.041614652373895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fde60f6e2f7bd%3A0xd3ce4bacd0632ee5!2sWie%C5%BCa%20widokowa%20w%20Kotowicach!5e0!3m2!1spl!2spl!4v1572711781246!5m2!1spl!2spl" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </section>

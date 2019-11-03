@@ -18,18 +18,28 @@ body {
     background-color: #fff;
 }
 
-#logo-and-nav {
+.logo-and-nav {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.logo-and-nav a:hover {
+    color: var(--a-hover-color);
+    text-decoration: none;
 }
 
 #logo {
     display: flex;
-    padding-left: 3%;
+    padding-left: 50%;
 }
 
 .logo-item {
-    padding: 20px 5px 5px 0px;
+    padding: 0.1em 0.5em 0.5em 0;
     align-self: center;
 }
 
@@ -37,7 +47,7 @@ body {
     color: var(--main-text-color);
     font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 0.15em;
 }
 
 nav ul {
@@ -72,7 +82,7 @@ nav a:active {
 }
 
 .hero-img {
-    height: 80vh;
+    height: 70vh;
     background-image: url("img/hero-image-1920-1152.jpg");
     background-position: center;
     background-size: cover;
@@ -81,28 +91,29 @@ nav a:active {
 
 .welcome {
     color: var(--welcome-text-color);
-    font-size: 7rem;
+    font-size: 7em;
     font-weight: 700;
-    padding: 50px 0px 0px;
+    padding: 1em 0 0;
 }
 
 .my-name-is {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: 600;     
 }
 
 #header-socials {
     display: flex;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 1em 0;
 }
 
 .social-item {
-    padding: 7px;
-    margin: 15px;
+    padding: 0.6em;
+    margin: 0.6em;
     background-color: #fff;
-    border-radius: 50%;
+    opacity: 0.6;
+    border-radius: 30%;
 }
 
 .i-am-happy {
@@ -110,11 +121,11 @@ nav a:active {
     font-size: 1.8rem;
     font-weight: 600;
     text-align: center;
-    padding: 20px 0px 0px;   
+    padding: 0.2em 0 0;   
 }
 
 .call-2-action {
-    margin: 5em;
+    margin: 2em;
 }
 
 .call-2-action-buttons {
@@ -140,6 +151,11 @@ nav a:active {
 
 .call-2-action a {
     color: #fff;
+    text-decoration: none;
+}
+
+.call-2-action a:hover {
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
@@ -247,12 +263,13 @@ section {
 
 input {
     width: 18em;
+    margin: 0.5em 0;
 }
 
 textarea {
     width: 18em;
     min-height: 10em;
-    margin: 0 0 5px;
+    margin: 0.5em 0;
 }
 
 #contact {
@@ -266,9 +283,9 @@ textarea {
 
 fieldset {
     border: medium none !important;
-    margin: 0 0 10px;
-    width: 20em;
-    padding: 0;
+    margin: 0.5em 0;
+    width: 15em;
+    padding: 0.5;
     text-align: center;
 }
 
@@ -278,13 +295,13 @@ fieldset {
 
 #contact button {
     cursor: pointer;
-    width: 20em;
+    width: 16.4em;
     border: none;
     background: var(--welcome-text-color);
     color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 1em;
+    margin: 0.5em 0;
+    padding: 0.1em;
+    font-size: 1.1em;
 }
 
 #contact button:hover {
@@ -299,8 +316,46 @@ footer {
     padding: 2em;
 }
 
+iframe {
+    width: 560px; 
+    height: 405px;
+    border:0;
+    margin: 1em;
+}
+
 @media only screen and (max-width: 1360px) {
     .content-info {
         flex-wrap: wrap;
+    }
+    iframe {
+        width: 504px; 
+        height: 365px;
+    }    
+}
+
+@media only screen and (max-width: 1200px) {
+    iframe {
+        width: 400px; 
+        height: 290px;
+        margin: auto;
+    }    
+}
+
+@media only screen and (max-width: 1000px) {
+    iframe {
+        width: 280px; 
+        height: 200px;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .welcome {
+        font-size: 5em;
+        margin: 1em 0 0.3em;
+    }
+    
+    .my-name-is {
+        font-size: 2em;
+        margin: 1em 0 0.3em;
     }
 }
